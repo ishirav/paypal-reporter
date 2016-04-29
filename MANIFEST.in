@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include setup.py
+include paypal_reporter/__init__.py
+include paypal_reporter/transactions.py
