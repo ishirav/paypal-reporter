@@ -111,7 +111,7 @@ def _date_range():
     d = date.today()
     end_datetime = datetime(d.year, d.month, 1) - timedelta(days=1)
     start_datetime = end_datetime.replace(day=1)
-    end_datetime -= timedelta(seconds=1)
+    end_datetime += timedelta(hours=23, minutes=59, seconds=59)
     return (start_datetime, end_datetime)   
 
 
